@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="header"> 
-        <div class="wrapper">        
+  <!-- HEADER START-->
+    <header class="header">
+        <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="" class="header__logo-link">
                         <img src="/img/odigo-Logoodigo-Logo.svg" alt="logo" class="header__logo-link ">
                     </a>
-                </div>    
+                </div>
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item"><a href="#" class="header__link">Articles</a></li>
@@ -23,27 +24,39 @@
                         <li class="header__item"><a href="#" class="header__link">Videos</a></li>
                         <li class="header__item"><a href="#" class="header__link">Sing in</a></li>
                     </ul>
+                    <div class="header-nav-close">
+                        <span class="header-nav-close-line"></span>
+                        <span class="header-nav-close-line"></span>
+                    </div>
                 </nav>
+                <div class="header-burger burger">
+                  <span class="burger-line burger-line-first"></span>
+                  <span class="burger-line burger-line-second"></span>
+                  <span class="burger-line burger-line-third"></span>
+                </div>
             </div>
         </div>
-    </header>
+    </header>   
+  <!-- HEADER END-->
+  <!-- MAIN START-->
     <main class="main">
         <section class="intro">
             <div class="wrapper">
                 <h1 class="intro-title">Discover Amazing places in Japan</h1>
-                <p class="intro-subtitle">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door </p>   
-                
+                <p class="intro-subtitle">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door </p>
+
                 <form action="#" class="search-form">
                     <fieldset class="search-form-wrap">
-                        <pclass="search-form-info">
+                        <p class="search-form-info">
                             <input type="text" name="user-like-to-do" class="search-form-field" placeholder="What would you like to do?">
                             <input type="text" name="user-like-to-go" class="search-form-field" placeholder="What would you like to go?">
                             <button type="submit" class="search-form-submit">search</button>
-                        </pclass=>
+                        </pclass>
                     </fieldset>
-                </form> 
+                </form>
             </div>
         </section>
+         <!-- HEADER END-->
         <!--  Benefits START!  -->
         <section class="benefits">
             <div class="benefits-wrap">
@@ -83,7 +96,7 @@
                     <div class="gallery-section-header">
                         <h2 class="gallery-title section-title">Get inspired for your next trip</h2>
                         <a class="gallery-header-link" href="#">VIEW ALL</a>
-                    </div>                
+                    </div>
                     <div class="gallery-cards">
                         <figure class="gallery-card gallery-card-size-large">
                             <img class="fuji-img gallery-picture gallery-picture-size-large" src="/img/Mount-Fuji.jpg" alt="mount-fuji">
@@ -139,15 +152,15 @@
                     <a class="places-link" href="#">VIEW PREFECTURE</a>
                   </div>
                 </div>
-                
+
                 <div class="places-wrapper">
                   <div class="places-info">
                     <h3 class="places-title">Prefecture in Focus: Tottori</h3>
                     <p class="places-descr">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
                     <a class="places-link" href="#">VIEW PREFECTURE</a>
                   </div>
-                  <div class="places-picture">
-                      <img src="/img/ImageArashiyama-img.jpg" alt="Tottori">
+                  <div class="places-picture places-picture-mob-first">
+                      <img src="/img/Imagetottori-img.jpg   " alt="Tottori">
                   </div>
                 </div>
             </div>
@@ -314,6 +327,75 @@
                 </div>
             </section>
         <!--  TOP END!  -->
+        <!--  VIDEO START!  -->
+
+        <section class="videos">
+          <div class="videos-wrapper">
+            <div class="video-item"></div>
+            <iframe class="video-link" src="https://www.youtube.com/embed/F0AT_7uVbeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+          
+        <!--  VIDEO END!  -->
+
+        <!--  FOOTER START!  -->
+
+        <footer class="footer">
+          <div class="wrapper">
+            <div class="footer-item">
+              <div class="footer-ligo">
+                <img class="footer-logo-image" src="/img/Footer-logo.svg" alt="odogio">
+              </div>
+              <nav class="footer-nav">
+                <ul class="footer-ul">
+                  <li class="footer-li">
+                    <h3 class="footer-h3">
+                      Company
+                    </h3>
+                  <li class="footer-li">
+                    <a href="#!" class="footer-menu-link">About</a>
+                    <a href="#!" class="footer-menu-link">Team</a>
+                    <a href="#!" class="footer-menu-link">Careers</a>
+                    <a href="#!" class="footer-menu-link">Privacy Policy</a>
+                  </li>
+                </ul>
+
+                <ul class="footer-ul">
+                  <li class="footer-li">
+                    <h3 class="footer-h3">
+                      Locations
+                    </h3>
+                  <li class="footer-li">
+                    <a href="#!" class="footer-menu-link">About</a>
+                    <a href="#!" class="footer-menu-link">Team</a>
+                    <a href="#!" class="footer-menu-link">Careers</a>
+                    <a href="#!" class="footer-menu-link">Privacy Policy</a>
+                  </li>
+                </ul>
+
+                <ul class="footer-ul">
+                  <li class="footer-li">
+                    <h3 class="footer-h3">
+                      Social Media
+                    </h3>
+                  <li class="footer-li">
+                    <a href="#!" class="footer-menu-link">About</a>
+                    <a href="#!" class="footer-menu-link">Team</a>
+                    <a href="#!" class="footer-menu-link">Careers</a>
+                    <a href="#!" class="footer-menu-link">Privacy Policy</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+
+        <!--  FOOTER END!  -->
+
+
+
+
     </main>
+    <script src="/js/main.js"></script>
 </body>
 </html>
